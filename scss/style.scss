@@ -1,15 +1,17 @@
 @charset "utf-8";
 
 // common
-@import "./common/reset";
+@import './common/reset';
+@import 'common/sub_layout';
+
 // ./common 과 common은 같은 의미입니다
-@import "common/header";
-@import "common/footer";
+@import 'common/header';
+@import 'common/footer';
 // .scss는 생략해도됩니다
 
 // main
-@import "main/visual.scss";
-@import "main/news.scss";
-@import "main/brand.scss";
-@import "main/banner.scss";
-@import "main/comments.scss";
+@import 'main/visual.scss';
+@import 'main/news.scss';
+@import 'main/brand.scss';
+@import 'main/banner.scss';
+@import 'main/comments.scss';
